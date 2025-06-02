@@ -1,0 +1,89 @@
+
+
+/* 通用設定 */
+body {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Logo 圖片置中與間距 */
+.text-center img {
+  max-height: 80px;
+}
+
+/* 導覽列樣式 */
+.custom-nav {
+  background-color: #6c63ff;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  margin: 0 auto 20px;
+  width: fit-content;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-nav .nav-link {
+  color: #fff;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.custom-nav .nav-link:hover {
+  color: #ffdd57;
+}
+
+/* 輪播圖樣式 */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: 300px;
+  border-radius: 12px;
+}
+
+/* 卡片排版 */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  background-color: #ffffff;
+  padding: 1.25rem;
+}
+
+.card-title {
+  color: #6c63ff;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #6c63ff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #574fcf;
+}
+
+/* Footer 樣式 */
+footer {
+  background-color: #f1f1f1;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #ddd;
+}
